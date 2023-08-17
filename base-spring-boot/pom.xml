@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.luokangyuan</groupId>
+        <artifactId>base-spring-boot-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath/>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>base-spring-boot</artifactId>
+    <version>1.0.0</version>
+    <name>base-spring-boot</name>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+
+    </dependencies>
+
+    <url>https://github.com/luokangyuan/base-spring-boot</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/luokangyuan/base-spring-boot.git</url>
+        <connection>scm:git:ssh://github.com/luokangyuan/base-spring-boot.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/luokangyuan/base-spring-boot.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>luokangyuan</name>
+            <email>lky9503@163.com</email>
+        </developer>
+    </developers>
+</project>
