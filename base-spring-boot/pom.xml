@@ -6,7 +6,7 @@
         <groupId>com.luokangyuan</groupId>
         <artifactId>base-spring-boot-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath/>
+        <relativePath>../</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>

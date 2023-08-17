@@ -6,7 +6,7 @@
 		<groupId>com.luokangyuan</groupId>
 		<artifactId>base-spring-boot-parent</artifactId>
 		<version>1.0.0</version>
-		<relativePath/>
+		<relativePath>../</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>base-spring-boot-starter</artifactId>
@@ -16,6 +16,11 @@
 	<description>base-spring-boot-starter</description>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.luokangyuan</groupId>
+			<artifactId>base-spring-boot</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
